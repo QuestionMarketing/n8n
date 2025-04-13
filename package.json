@@ -44,6 +44,7 @@
     "test:nodes": "turbo run test:nodes --concurrency=1",
     "watch": "turbo run watch --parallel",
     "webhook": "./packages/cli/bin/n8n webhook",
+    "postinstall": "npm install sqlite3 --build-from-source=false",
     "worker": "./packages/cli/bin/n8n worker"
   },
   "devDependencies": {
